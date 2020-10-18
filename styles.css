@@ -1,0 +1,47 @@
+.imga {
+  width: 700px; 
+  height:350px;
+}
+
+.lift:hover {
+  color: rgba(218, 122, 44, 0.596);
+}
+.active{
+  color: rgb(231, 229, 73);
+}
+
+@media only screen and (max-width: 920px) {
+  .imga{
+    display: none;
+  }
+}
+nav:hover{
+  color: pink;
+}
+
+.skill{
+  width:200px;
+  height: 200px;
+}
+.skillAll:hover{
+  background-color:rgb(28, 43, 133);
+  border-radius: 10px;
+  
+}
+.skillAll:hover h2{
+  color: rgb(54, 24, 78);
+  
+}
+@media only screen and (max-width: 593px) {
+  .skill{
+    width:150px;
+    height: 150px;
+    margin: auto;
+  }
+}
+body{
+  background-color: #401e5cce;
+}
+
+
+
